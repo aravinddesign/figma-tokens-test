@@ -1,0 +1,64 @@
+{
+  "theme": {
+    "bg": {
+      "default": {
+        "value": "#222222",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#191919",
+        "type": "color"
+      },
+      "muted": {
+        "value": "#2C2C2C",
+        "type": "color"
+      }
+    },
+    "fg": {
+      "default": {
+        "value": "#D4d4d4",
+        "type": "color"
+      },
+      "onAccent": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "muted": {
+        "value": "#A0A0A0",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#989898",
+        "type": "color"
+      },
+      "subtle2": {
+        "value": "#707070",
+        "type": "color"
+      }
+    },
+    "accent": {
+      "default": {
+        "value": "#6475f7",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#2c2c2c",
+        "type": "color"
+      },
+      "red": {
+        "value": "#e95c7b",
+        "type": "color"
+      },
+      "redsubtle": {
+        "value": "#9c0f2e",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "#2f2f2f",
+        "type": "color"
+      }
+    }
+  }
+}

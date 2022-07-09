@@ -1,0 +1,15 @@
+.dark-midnight-theme {
+  --theme-bg-default: #222222;
+  --theme-bg-subtle: #191919;
+  --theme-bg-muted: #2C2C2C;
+  --theme-fg-default: #D4d4d4;
+  --theme-fg-on-accent: #ffffff;
+  --theme-fg-muted: #A0A0A0;
+  --theme-fg-subtle: #989898;
+  --theme-fg-subtle2: #707070;
+  --theme-accent-default: #6475f7;
+  --theme-accent-subtle: #2c2c2c;
+  --theme-accent-red: #e95c7b;
+  --theme-accent-redsubtle: #9c0f2e;
+  --theme-border-default: #2f2f2f;
+}
