@@ -3,6 +3,7 @@
 @import "tailwindcss/components";
 @import "output/light.css";
 @import "output/dark.css";
+@import "output/dark-midnight.css";
 @import "custom.css";
 
 @import "tailwindcss/utilities";
