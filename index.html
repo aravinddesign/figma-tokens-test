@@ -10,24 +10,34 @@
       <h1 class="text-4xl font-bold mb-2">Figma → GitHub → Tailwind</h1>
       <p class="text-xl text-theme-fg-muted mb-4">This example transforms tokens stored on GitHub to Style Dictionary ready files which in turn triggers TailwindCSS.</p>
       <button class="p-2 bg-theme-accent-default text-theme-fg-onAccent font-bold" id="switch" onclick="toggleTheme()">Switch</button>
+      <select id="select1" onchange="getValue(this);">
+        <option value="light-theme">Free</option>
+        <option value="dark-theme">Basic</option>
+        <option value="dark-midnight-theme">Premium</option>
+    </select>
     </div>
     <script>
+      function getValue(option) {
+        // alert(option.value);
+        document.documentElement.className = option.value;
+      }
+      
       function setTheme(name) {
         localStorage.setItem("theme", name);
         document.documentElement.className = name;
       }
 
       function toggleTheme() {
-        if (localStorage.getItem("theme") === "dark-theme") {
+        if (localStorage.getItem("theme") === "dark-midnight-theme") {
           setTheme("light-theme");
         } else {
-          setTheme("dark-theme");
+          setTheme("dark-midnight-theme");
         }
       }
 
       (function () {
-        if (localStorage.getItem("theme") === "dark-theme") {
-          setTheme("dark-theme");
+        if (localStorage.getItem("theme") === "dark-midnight-theme") {
+          setTheme("dark-midnight-theme");
         } else {
           setTheme("light-theme");
         }
